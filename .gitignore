@@ -1,0 +1,26 @@
+# Dependencies
+app/node_modules/
+
+# Environment — contains API keys, never commit
+app/.env
+app/.env.local
+app/.env.*.local
+
+# Build output (deployed via GitHub Actions)
+app/dist/
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian workspace state
+source-material/.obsidian/workspace.json
+source-material/.obsidian/workspace-mobile.json
